@@ -600,7 +600,12 @@
 			// Add labels as labels
 			if (_this.options.showLabels && node.labels) {
 				$.each(node.labels, function addLabel(id, label) {
-					treeItem.append($(_this.template.label).addClass("label-" + label.class).append(label.text));
+					treeItem.append(
+						$(_this.template.label)
+							.addClass("label-" + label.class)
+							.addClass('indent-' + level)
+							.append(label.text)
+					);
 				});
 			}
 

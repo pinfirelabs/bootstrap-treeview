@@ -35,3 +35,30 @@
 	color: silver;
 	cursor: not-allowed;
 }
+
+.treeview .label {
+	position: absolute;	
+	left: 35%;
+}
+
+.treeview .label.indent-0 {
+	left: calc(35% + 20px);
+}
+.treeview .label.indent-1 {
+	left: calc(35% + 40px);
+}
+.treeview .label.indent-2 {
+	left: calc(35% + 60px);
+}
+.treeview .label.indent-3 {
+	left: calc(35% + 80px);
+}
+.treeview .label.indent-4 {
+	left: calc(35% + 120px);
+}
+.treeview .label.indent-5 {
+	left: calc(35% + 140px);
+}
+.treeview .label.indent-6 {
+	left: calc(35% + 160px);
+}
